@@ -1,0 +1,1 @@
+$(MODULE_NAME)-objs += modem/rn2483.o
