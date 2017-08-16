@@ -1,0 +1,10 @@
+*.o.cmd
+*.o
+*.o.d
+.tmp_version
+.tmp_versions
+*.cmd
+modules.order
+Modules.symvers
+lora6.mod.c
+Module.symvers
