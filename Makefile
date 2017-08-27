@@ -8,7 +8,7 @@ $(MODULE_NAME)-objs += lora_cmd.o lora_core.o
 include $(MODEM_DIR)/*.mk
 
 MODULE_DIR := $(PWD)/../rootfs
-KVERSION := 4.9.43-v7+
+KVERSION ?= $(shell ls $(MODULE_DIR)/lib/modules)
 
 
 all:
