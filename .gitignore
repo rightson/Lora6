@@ -6,5 +6,7 @@
 *.cmd
 modules.order
 Modules.symvers
-lora6.mod.c
 Module.symvers
+lora6.mod.c
+tags
+lora6.ko
